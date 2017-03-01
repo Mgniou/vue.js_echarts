@@ -1,0 +1,101 @@
+.col-md-4, .col-md-8 {
+    padding: 0;
+}
+
+.peopleNum {
+    height: 80px;
+    overflow: hidden;
+    .numBox {
+        width: 180px;
+        height: 80px;
+        border: 2px solid #51bee3;
+        border-radius: 4px;
+        .numTitle {
+            height: 36px;
+            line-height:36px;
+            text-align: center;
+            width: 100%;
+            background: #51bee3;
+            color: #fff;
+            font-size: 16px;
+            letter-spacing: 3px;
+        }
+        .numItem {
+            height: 42px;
+            line-height:42px;
+            text-align: center;
+            font-size: 20px;
+            color: #51bee3;
+        }
+    }
+    div:first-child {
+        margin: 0 20px 0 0;
+    }
+}
+
+.noBorder {
+    margin: 0 0 18px 0;
+    .numBox {
+        border: 0;
+        border-radius: 0;
+        margin: 12px 0 0;
+        .numTitle {
+            background: #fff;
+            color: #333;
+            font-size: 16px;
+            letter-spacing: inherit;
+            overflow: hidden;
+        }
+    }
+    .wifiBox {
+        width: 90%;
+        height: auto;
+    }
+    div:first-child {
+        margin: 12px 20px 0 0!important;
+    }
+}
+
+.blankL {
+    margin: 0 0 0 30px;
+}
+
+.wifiAllBox {
+    height: auto;
+}
+
+.pieChart {
+    width: 400px;
+    height: 300px;
+    margin: 10px 0 0;
+}
+
+.hotChart {
+    width: 800px;
+    height: 550px;
+    background: url("./img/bg.png") center center no-repeat;
+    background-size: cover;
+}
+
+.partPhone {
+    width: 456px;
+    height: 450px;
+}
+
+.allPhone {
+    margin: 120px 0 0;
+    width: 130px;
+    height: 150px;
+}
+
+.leftArr {
+    display: block;
+    margin: 120px 0 0;
+    width: 76px;
+    height: 150px;
+    background: url("./img/arrLeft.png") center center no-repeat;
+}
+
+.rightArr {
+    background: url("./img/arrRight.png") center center no-repeat;
+}

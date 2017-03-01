@@ -1,0 +1,61 @@
+{
+  "skin": "darkblue",
+  "mainTitle": "Arthorn vue",
+  "name": "vue-webpack",
+  "version": "1.0.0",
+  "description": "webpack vue2 通用脚手架, 组件demo项目, metronic_v4.5 admin3模板",
+  "author": "Neil <cnluoxh@163.com>, Arthorn<422578659@qq.com>",
+  "private": true,
+  "scripts": {
+    "dev": "node buildScripts/dev-server.js",
+    "build": "node buildScripts/build.js",
+    "build2": "node buildScripts/build.js --copy no"
+  },
+  "dependencies": {
+    "echarts": "^3.4.0",
+    "vue": "^2.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "babel-register": "^6.0.0",
+    "chalk": "^1.1.3",
+    "css-loader": "^0.25.0",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.13.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "function-bind": "^1.0.2",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-uglify": "^2.0.0",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.8.1",
+    "http-proxy-middleware": "^0.17.2",
+    "node-sass": "^4.0.0",
+    "opn": "^4.0.2",
+    "ora": "^0.3.0",
+    "sass-loader": "^4.1.0",
+    "semver": "^5.3.0",
+    "shelljs": "^0.7.4",
+    "url-loader": "^0.5.7",
+    "vue-loader": "^10.0.0",
+    "vue-style-loader": "^1.0.0",
+    "vue-template-compiler": "^2.1.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.8.3",
+    "webpack-hot-middleware": "^2.12.2",
+    "webpack-merge": "^0.14.1"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

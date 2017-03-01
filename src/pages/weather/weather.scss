@@ -1,0 +1,97 @@
+.col-md-6 {
+    padding: 0;
+}
+
+.weatherLine {
+    height: 580px;
+}
+
+.adress {
+    line-height: 54px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.pm {
+    line-height: 38px;
+    font-size: 16px;
+    color: #666;
+    overflow: hidden;
+    img {
+        display: block;
+        width: 32px;
+        float: left;
+        margin: 3px 8px 0 0;
+    }
+    span {
+        display: block;
+        float: left;
+    }
+}
+
+.temper {
+    overflow: hidden;
+    margin: 32px 0 0;
+    span {
+        display: block;
+        float: left;
+        font-size: 24px;
+        color: #333;
+        margin: 56px 10px 0 0;
+    }
+    .lagerSpan {
+        font-size: 100px;
+        line-height: 97px;
+        margin: 0 10px 0 0;
+    }
+}
+
+.weatherTrend {
+    width: 100%;
+    height: 320px;
+}
+
+#j_localWeatherChart {
+    margin: 28px 0 0;
+    height: 452px;
+}
+
+.lifeTitle {
+    width: 100%;
+    line-height: 60px;
+    margin: 18px 0 0;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.lifeIndex {
+    overflow: hidden;
+    li {
+        width: 180px;
+        height: 144px;
+        margin: 8px 8px 0 0;
+        display: block;
+        float: left;
+        border: 1px solid #51bee3;
+        border-radius: 4px;
+        padding: 10px 18px 4px;
+        p {
+            color: #666;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+        }
+        .indexNum {
+            line-height: 56px;
+            color: #51bee3;
+            font-size: 26px;
+        }
+        .indexInfo {
+            line-height: 24px;
+            font-size: 12px;
+        }
+    }
+}

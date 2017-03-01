@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <title></title>
+    <%= require('components/layout/heade-link.html') %>
+</head>
+<body class="page-header-fixed page-container-bg-solid page-sidebar-closed-hide-logo page-header-fixed-mobile page-footer-fixed1">
+    <div id="app">
+        <div class="page-header">
+            <app-header></app-header>
+            <app-menu></app-menu>
+        </div>
+        <div class="page-container">
+            <div class="page-content">
+                <div class="container">
+                    <div class="page-content-inner">
+                        <index></index>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <app-footer></app-footer>
+    </div>
+    <%= require('components/layout/footer-script.html') %>
+    <script src="/assets/global/plugins/heatmap.min.js"></script>
+</body>
+</html>
